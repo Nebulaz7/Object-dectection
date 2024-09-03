@@ -5,7 +5,7 @@ const enableWebcamButton = document.getElementById("webcamButton");
 
 function getUserMediaSupported() {
   return !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
-}
+};
 
 // If webcam supported, add event listener to button for when user
 // wants to activate it to call enableCam function which we will
